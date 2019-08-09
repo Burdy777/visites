@@ -1,4 +1,17 @@
 .container__visites {
     position: relative;
     top:5em;
+    width: 100vw;
+    button {
+        margin-left: 10%;
+    }
+  &__table {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      top:2.5em;
+      .mat-elevation-z8 {
+          width: 90%;
+      }
+  }  
 }

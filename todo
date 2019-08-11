@@ -1,0 +1,35 @@
+formulaire 
+Design 1pt
+
+ajouter un dialog title pour mettre un titre = ajouter une visite
+ajouter un dialog content et mettre le formulaire dedans
+mettre une hauteur et largeur a la modal
+mettre les champs de maniere vertical avec, le titre a côte (a voir avec les options material)
+mettre chaque champs avec le design de material Angular (select, text, textarea, et date)
+
+
+programmation 2point
+
+mettre les validation et les setter pour chaque champs
+
+SELECT (leaders)
+Creer le tableau de leader
+utiliser le tableau dans le control select
+required
+mettre un message d'erreur "champ obligatoire"
+
+DATE (date)
+required
+mettre un message d'erreur "champ obligatoire"
+
+TEXTAREA (obs)
+required
+255 mot maximum
+mettre un message d'erreur "champ obligatoire" ou 255 caractere maximum
+
+TEXT (hote)
+required
+30 max length
+mettre un message d'erreur "champ obligatoire" ou 30 caractere maximum
+
+

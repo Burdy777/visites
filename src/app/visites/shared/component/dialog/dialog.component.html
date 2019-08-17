@@ -1,0 +1,27 @@
+<form [formGroup]="visitesForm">
+  <label>
+      leaders
+      <select formControlName="leaders">
+          <option value="Nono">Nono</option>
+          <option value="Burdy">Burdy</option>
+      </select>
+  </label>
+
+  <label>
+      hôte
+    <input type="text" formControlName="hote">
+  </label>
+
+  <label>
+      date
+    <input type="date" formControlName="date">
+  </label>
+
+  <label>
+      observations
+    <textarea type="text" formControlName="observations" maxlength="255"></textarea>
+  </label>
+
+    <button [disabled]="!visitesForm.valid"> enregistrer</button>
+</form>
+
